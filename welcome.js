@@ -71,8 +71,8 @@ module.exports = function (client) {
         .setColor("RANDOM")
         .setTimestamp()
         .setFooter("Welcome", member.guild.iconURL({ dynamic: true }))
-        .setDescription(`**Welcome to ${member.guild.name}!**
-      Hi <@${member.id}>!, read and accept the rules!`)
+        .setDescription(`**Selamat Datang Di ${member.guild.name}!**
+      heyy <@${member.id}>!, Baca Rules Dan Jangan Lupa Req Citizen!`)
         .setImage("attachment://welcome-image.png")
         .attachFiles(attachment);
       //define the welcome channel
